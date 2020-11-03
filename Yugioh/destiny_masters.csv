@@ -1,55 +1,56 @@
 ﻿Name,Frame,Atribute,Type,Level,ATK,DEF,Icon,Rarity,Set,Text,Simple Frame,Number
-Dark Magician Girl,Effect Monster,DARK  ,Spellcaster/Effect,6,2000,1700,N/A,COMM,Destiny Master,,Monster,
-Legion the Fiend Jester,Effect Monster,DARK  ,Spellcaster/Effect,4,1300,1500,N/A,COMM,Destiny Master,,Monster,
-The Stern Mystic,Effect Monster,LIGHT  ,Spellcaster/Flip/Effect,4,1500,1200,N/A,COMM,Destiny Master,,Monster,
-Double Coston,Effect Monster,DARK  ,Zombie/Effect,4,1700,1650,N/A,COMM,Destiny Master,,Monster,
-Blue Dragon Summoner,Effect Monster,WIND  ,Spellcaster/Effect,4,1500,600,N/A,COMM,Destiny Master,,Monster,
-Gravekeeper's Curse,Effect Monster,DARK  ,Spellcaster/Effect,3,800,800,N/A,COMM,Destiny Master,,Monster,
-Gravekeeper's Spear Soldier,Effect Monster,DARK  ,Spellcaster/Effect,4,1500,1000,N/A,COMM,Destiny Master,,Monster,
-Gravekeeper's Vassal,Effect Monster,DARK  ,Spellcaster/Effect,3,700,500,N/A,COMM,Destiny Master,,Monster,
-Gravekeeper's Chief,Effect Monster,DARK  ,Spellcaster/Effect,5,1900,1200,N/A,COMM,Destiny Master,,Monster,
-Gravekeeper's Cannonholder,Effect Monster,DARK  ,Spellcaster/Effect,4,1400,1200,N/A,COMM,Destiny Master,,Monster,
-Gravekeeper's Assailant,Effect Monster,DARK  ,Spellcaster/Effect,4,1500,1500,N/A,COMM,Destiny Master,,Monster,
-Gravekeeper's Priestess,Effect Monster,DARK  ,Spellcaster/Effect,3,1000,1500,N/A,COMM,Destiny Master,,Monster,
-Gravekeeper's Recruiter,Effect Monster,DARK  ,Spellcaster/Effect,3,1200,1500,N/A,COMM,Destiny Master,,Monster,
-Gravekeeper's Shaman,Effect Monster,DARK  ,Spellcaster/Effect,6,1500,1500,N/A,COMM,Destiny Master,,Monster,
-Gravekeeper's Oracle,Effect Monster,DARK  ,Spellcaster/Effect,10,2000,1500,N/A,COMM,Destiny Master,,Monster,
-A Cat of Ill Omen,Effect Monster,DARK  ,Beast/Flip/Effect,2,500,300,N/A,COMM,Destiny Master,,Monster,
-Toon Masked Sorcerer,Effect Monster,DARK  ,Spellcaster/Toon/Effect,4,900,1400,N/A,COMM,Destiny Master,,Monster,
-Toon Mermaid,Effect Monster,WATER  ,Aqua/Toon/Effect,4,1400,1500,N/A,COMM,Destiny Master,,Monster,
-Toon Summoned Skull,Effect Monster,DARK  ,Fiend/Toon/Effect,6,2500,1200,N/A,COMM,Destiny Master,,Monster,
-Dark Magician,Normal Monster,DARK  ,Spellcaster/Normal,7,2500,2100,N/A,COMM,Destiny Master,,Monster,
-Feral Imp,Normal Monster,DARK  ,Fiend/Normal,4,1300,1400,N/A,COMM,Destiny Master,,Monster,
-Rogue Doll,Normal Monster,LIGHT  ,Spellcaster/Normal,4,1600,1000,N/A,COMM,Destiny Master,,Monster,
-Toon Alligator,Normal Monster,WATER  ,Reptile/Normal,4,800,1600,N/A,COMM,Destiny Master,,Monster,
-Parrot Dragon,Normal Monster,WIND  ,Dragon/Normal,5,2000,1300,N/A,COMM,Destiny Master,,Monster,
-Dark Rabbit,Normal Monster,DARK  ,Beast/Normal,4,1100,1500,N/A,COMM,Destiny Master,,Monster,
-Relinquished,Ritual Monster,DARK  ,Spellcaster/Ritual/Effect,1,0,0,N/A,COMM,Destiny Master,,Monster,
-Thousand Knives,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,,Spell/Trap,
-Sage's Stone,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,,Spell/Trap,
-Dark Magic Attack,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,,Spell/Trap,
-Riryoku,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,,Spell/Trap,
-Tribute Doll,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,,Spell/Trap,
-Wonder Wand,Spell Card,N/A,N/A,N/A,N/A,N/A,Equip Spell,COMM,Destiny Master,,Spell/Trap,
-Gravekeeper's Stele,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,,Spell/Trap,
-Hidden Temples of Necrovalley,Spell Card,N/A,N/A,N/A,N/A,N/A,Continuous Spell,COMM,Destiny Master,,Spell/Trap,
-Sebek's Blessing,Spell Card,N/A,N/A,N/A,N/A,N/A,Quick-Play Spell,COMM,Destiny Master,,Spell/Trap,
-Black Illusion Ritual,Spell Card,N/A,N/A,N/A,N/A,N/A,Ritual Spell,COMM,Destiny Master,,Spell/Trap,
-Toon Table of Contents,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,,Spell/Trap,
-Toon Rollback,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,,Spell/Trap,
-Toon World,Spell Card,N/A,N/A,N/A,N/A,N/A,Continuous Spell,COMM,Destiny Master,,Spell/Trap,
-Yami,Spell Card,N/A,N/A,N/A,N/A,N/A,Field Spell,COMM,Destiny Master,,Spell/Trap,
-Sword of Deep-Seated,Spell Card,N/A,N/A,N/A,N/A,N/A,Equip Spell,COMM,Destiny Master,,Spell/Trap,
-Shard of Greed,Spell Card,N/A,N/A,N/A,N/A,N/A,Continuous Spell,UR,Destiny Master,,Spell/Trap,
-Mimicat,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,UR,Destiny Master,,Spell/Trap,
-Lightforce Sword,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,,Spell/Trap,
-Magician's Circle,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,,Spell/Trap,
-Magic Jammer,Trap Card,N/A,N/A,N/A,N/A,N/A,Counter Trap,COMM,Destiny Master,,Spell/Trap,
-Seven Tools of the Bandit,Trap Card,N/A,N/A,N/A,N/A,N/A,Counter Trap,COMM,Destiny Master,,Spell/Trap,
-Blast Held by a Tribute,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,,Spell/Trap,
-Rite of Spirit,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,,Spell/Trap,
-The Eye of Truth,Trap Card,N/A,N/A,N/A,N/A,N/A,Continuous Trap,COMM,Destiny Master,,Spell/Trap,
-Toon Defense,Trap Card,N/A,N/A,N/A,N/A,N/A,Continuous Trap,COMM,Destiny Master,,Spell/Trap,
-Jar of Greed,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,,Spell/Trap,
-Wild Tornado,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,,Spell/Trap,
-The Golden Apples,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,UR,Destiny Master,,Spell/Trap,
+Dark Magician Girl,Effect Monster,DARK  ,Spellcaster/Effect,6,2000,1700,N/A,COMM,Destiny Master,"Gains 300 ATK for every ""Dark Magician"" or ""Magician of Black Chaos"" in the GY.",Monster,SS01-ENA04
+Legion the Fiend Jester,Effect Monster,DARK  ,Spellcaster/Effect,4,1300,1500,N/A,COMM,Destiny Master,"During your Main Phase(Comma) you can Tribute Summon 1 Spellcaster-Type monster in face-up Attack Position(Comma) in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) If this card is sent from the field to the Graveyard: You can add 1 Spellcaster-Type Normal Monster from your Deck or GY to your hand. You can only use this effect of ""Legion the Fiend Jester"" once per turn.",Monster,SS01-ENA05
+The Stern Mystic,Effect Monster,LIGHT  ,Spellcaster/Flip/Effect,4,1500,1200,N/A,COMM,Destiny Master,FLIP: All face-down cards on the field are turned face-up(Comma) and then returned to their original positions. No card effects are activated when cards are turned face-up,Monster,SS01-ENA06
+Double Coston,Effect Monster,DARK  ,Zombie/Effect,4,1700,1650,N/A,COMM,Destiny Master,This card can be treated as 2 Tributes for the Tribute Summon of a DARK monster.,Monster,SS01-ENA07
+Blue Dragon Summoner,Effect Monster,WIND  ,Spellcaster/Effect,4,1500,600,N/A,COMM,Destiny Master,If this card is sent from the field to the GY: You can add 1 Dragon(Comma) Warrior(Comma) or Spellcaster-Type Normal Monster from your Deck to your hand.,Monster,SS01-ENA08
+Gravekeeper's Curse,Effect Monster,DARK  ,Spellcaster/Effect,3,800,800,N/A,COMM,Destiny Master,When this card is Summoned: Inflict 500 damage to your opponent.,Monster,SS01-ENB01
+Gravekeeper's Spear Soldier,Effect Monster,DARK  ,Spellcaster/Effect,4,1500,1000,N/A,COMM,Destiny Master,If this card attacks a Defense Position monster(Comma) inflict piercing Battle Damage to your opponent.,Monster,SS01-ENB02
+Gravekeeper's Vassal,Effect Monster,DARK  ,Spellcaster/Effect,3,700,500,N/A,COMM,Destiny Master,Any battle damage this card inflicts to your opponent is treated as effect damage instead.,Monster,SS01-ENB03
+Gravekeeper's Chief,Effect Monster,DARK  ,Spellcaster/Effect,5,1900,1200,N/A,COMM,Destiny Master,"You can only control 1 face-up ""Gravekeeper's Chief"". Your Graveyard is unaffected by ""Necrovalley"". When this card is Tribute Summoned: You can target 1 ""Gravekeeper's"" monster in your Graveyard(Comma) Special Summon that target.",Monster,SS01-ENB04
+Gravekeeper's Cannonholder,Effect Monster,DARK  ,Spellcaster/Effect,4,1400,1200,N/A,COMM,Destiny Master,"You can Tribute 1 ""Gravekeeper's"" monster(Comma) except ""Gravekeeper's Cannonholder""(Comma) inflict 700 damage to your opponent",Monster,SS01-ENB05
+Gravekeeper's Assailant,Effect Monster,DARK  ,Spellcaster/Effect,4,1500,1500,N/A,COMM,Destiny Master,"When this card declares an attack while ""Necrovalley"" is on the field: You can target 1 face-up monster your opponent controls(Comma) change that target's battle position.",Monster,SS01-ENB06
+Gravekeeper's Priestess,Effect Monster,DARK  ,Spellcaster/Effect,3,1000,1500,N/A,COMM,Destiny Master,"While there is no face-up Field Spell Card(Comma) the field is treated as ""Necrovalley"". All ""Gravekeeper's"" monsters gain 200 ATK and DEF.",Monster,SS01-ENB07
+Gravekeeper's Recruiter,Effect Monster,DARK  ,Spellcaster/Effect,3,1200,1500,N/A,COMM,Destiny Master,"When this card you control is sent to your Graveyard: Add 1 ""Gravekeeper's"" monster with 1500 or less DEF from your Deck to your hand.",Monster,SS01-ENB08
+Gravekeeper's Shaman,Effect Monster,DARK  ,Spellcaster/Effect,6,1500,1500,N/A,COMM,Destiny Master,"This card gains 200 DEF for each ""Gravekeeper's"" monster in your Graveyard. Negate all monster effects that activate in the Graveyard(Comma) except ""Gravekeeper's"" monsters. While ""Necrovalley"" is on the field(Comma) your opponent cannot activate Field Spell Cards(Comma) also Field Spell Cards on the field cannot be destroyed by your opponent's card effects.",Monster,SS01-ENB09
+Gravekeeper's Oracle,Effect Monster,DARK  ,Spellcaster/Effect,10,2000,1500,N/A,COMM,Destiny Master,"You can Tribute 3 monsters or 1 ""Gravekeeper's"" monster to Tribute Summon (but not Set) this card. When this card is Tribute Summoned: You can activate any of these effects(Comma) and resolve in sequence(Comma) up to the number of ""Gravekeeper's"" monsters Tributed for its Summon(Comma) - This card gains ATK equal to the combined Levels that all monsters Tributed for its Tribute Summon had on the field x 100.  - Destroy all Set monsters your opponent controls. - All monsters your opponent currently controls lose 2000 ATK and DEF.",Monster,SS01-ENB10
+A Cat of Ill Omen,Effect Monster,DARK  ,Beast/Flip/Effect,2,500,300,N/A,COMM,Destiny Master,"FLIP: Select 1 Trap Card from your Deck and place it on top of your Deck. If ""Necrovalley"" is on the field (Comma) you can add the selected card to your hand instead",Monster,SS01-ENB11
+Toon Masked Sorcerer,Effect Monster,DARK  ,Spellcaster/Toon/Effect,4,900,1400,N/A,COMM,Destiny Master,"Cannot attack the turn it is Summoned. If ""Toon World"" on the field is destroyed(Comma) destroy this card. While you control ""Toon World"" and your opponent controls no Toon monsters(Comma) this card can attack your opponent directly. If this card inflicts battle damage to your opponent: Draw 1 card.",Monster,SS01-ENC05
+Toon Mermaid,Effect Monster,WATER  ,Aqua/Toon/Effect,4,1400,1500,N/A,COMM,Destiny Master,"Cannot be Normal Summoned/Set. Cannot be Special Summoned unless you control a face-up ""Toon World"". Must first be Special Summoned (from your hand) by Tributing the same number of monsters needed for a Tribute Summon (normally 0). This card cannot attack the turn it is Special Summoned. You must pay 500 Life Points to declare an attack with this monster. If ""Toon World"" on the field is destroyed(Comma) destroy this card. This card can attack your opponent directly(Comma) unless they control a Toon Monster. If they do control one(Comma) this card must target a Toon Monster for its attacks.",Monster,SS01-ENC06
+Toon Summoned Skull,Effect Monster,DARK  ,Fiend/Toon/Effect,6,2500,1200,N/A,COMM,Destiny Master,"(This card is always treated as an ""Archfiend"" card.) Cannot be Normal Summoned/Set. Cannot be Special Summoned unless you control ""Toon World"". Must first be Special Summoned (from your hand) by Tributing the same number of monsters needed for a Tribute Summon (normally 1). This card cannot attack the turn it is Special Summoned. You must pay 500 Life Points to declare an attack with this monster. If ""Toon World"" on the field is destroyed(Comma) destroy this card. This card can attack your opponent directly(Comma) unless they control a Toon Monster. If they do control one(Comma) this card must target a Toon Monster for its attacks.",Monster,SS01-ENC07
+Dark Magician,Normal Monster,DARK  ,Spellcaster/Normal,7,2500,2100,N/A,COMM,Destiny Master,The ultimate wizard in terms of attack and defense.,Monster,SS01-ENA01
+Feral Imp,Normal Monster,DARK  ,Fiend/Normal,4,1300,1400,N/A,COMM,Destiny Master,A playful little fiend that lurks in the dark(Comma) waiting to attack an unwary enemy,Monster,SS01-ENA02
+Rogue Doll,Normal Monster,LIGHT  ,Spellcaster/Normal,4,1600,1000,N/A,COMM,Destiny Master,A deadly doll gifted with mystical power(Comma) it is particularly powerful when attacking against dark forces,Monster,SS01-ENC01
+Rogue Doll,Normal Monster,LIGHT  ,Spellcaster/Normal,4,1600,1000,N/A,COMM,Destiny Master,A deadly doll gifted with mystical power(Comma) it is particularly powerful when attacking against dark forces,Monster,SS01-ENA03
+Toon Alligator,Normal Monster,WATER  ,Reptile/Normal,4,800,1600,N/A,COMM,Destiny Master,An alligator monster straight from the cartoons.,Monster,SS01-ENC02
+Parrot Dragon,Normal Monster,WIND  ,Dragon/Normal,5,2000,1300,N/A,COMM,Destiny Master,A dragon from the cartoons that's more dangerous than it appears to be.,Monster,SS01-ENC03
+Dark Rabbit,Normal Monster,DARK  ,Beast/Normal,4,1100,1500,N/A,COMM,Destiny Master,He leaps up(Comma) down(Comma) and all around! Nobody can lay a hand on this funny bunny.,Monster,SS01-ENC04
+Relinquished,Ritual Monster,DARK  ,Spellcaster/Ritual/Effect,1,0,0,N/A,COMM,Destiny Master,"You can Ritual Summon this card with ""Black Illusion Ritual"". Once per turn: You can target 1 monster your opponent controls(Comma) equip that target to this card (max. 1). This card's ATK/DEF become equal to that equipped monster's. If this card would be destroyed by battle(Comma) destroy that equipped monster instead. While equipped with that monster(Comma) any battle damage you take from battles involving this card inflicts equal effect damage to your opponent.",Monster,SS01-ENC08
+Thousand Knives,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,"If you control ""Dark Magician"": Target 1 monster your opponent controls(Comma) destroy that target.",Spell/Trap,SS01-ENA09
+Sage's Stone,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,"If you control a face-up ""Dark Magician Girl"": Special Summon 1 ""Dark Magician"" from your hand or Deck.",Spell/Trap,SS01-ENA10
+Dark Magic Attack,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,"If you control ""Dark Magician"": Destroy all Spells and Traps your opponent controls.",Spell/Trap,SS01-ENA11
+Riryoku,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,Target 2 face-up monsters on the field(Comma) halve the ATK of 1 monster(Comma) and if you do(Comma) add that ATK to the other monster. These effects last until the End Phase .,Spell/Trap,SS01-ENA12
+Tribute Doll,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,Tribute 1 monster(Comma) Special Summon 1 Level 7 monster from your hand that can be Normal Summoned or Normal Set. It cannot attack this turn.,Spell/Trap,SS01-ENA13
+Wonder Wand,Spell Card,N/A,N/A,N/A,N/A,N/A,Equip Spell,COMM,Destiny Master,Equip only to a Spellcaster-type monster. It gains 500 ATK. If you control the monster and this card: You can send both to the GY(Comma) draw 2 cards.,Spell/Trap,SS01-ENA14
+Gravekeeper's Stele,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,"Target 2 ""Gravekeeper's"" monsters in your Graveyard(Comma) add those targets to your hand. This effect cannot be negated by the effect of ""Necrovalley"".",Spell/Trap,SS01-ENB12
+Hidden Temples of Necrovalley,Spell Card,N/A,N/A,N/A,N/A,N/A,Continuous Spell,COMM,Destiny Master,"Activate only if both a ""Gravekeeper's"" monster and ""Necrovalley"" are on the field. Neither player can Special Summon monsters(Comma) except ""Gravekeeper's"" monsters. If either a ""Gravekeeper's"" monster or ""Necrovalley"" is not on the field(Comma) destroy this card.",Spell/Trap,SS01-ENB13
+Sebek's Blessing,Spell Card,N/A,N/A,N/A,N/A,N/A,Quick-Play Spell,COMM,Destiny Master,Activate only when a monster you control has attacked your opponent directly. Gain Life Points equal to the Battle Damage that the monster inflicted to your opponent.,Spell/Trap,SS01-ENB14
+Black Illusion Ritual,Spell Card,N/A,N/A,N/A,N/A,N/A,Ritual Spell,COMM,Destiny Master,"This card is used to Ritual Summon ""Relinquished"". You must also Tribute a monster from your hand or field whose Level is 1 or more.",Spell/Trap,SS01-ENC09
+Toon Table of Contents,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,"Add 1 ""Toon"" card from your deck to your hand.",Spell/Trap,SS01-ENC10
+Toon Rollback,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,COMM,Destiny Master,Target 1 Toon monster you control(Comma) it can make a second attack during each Battle Phase this turn.,Spell/Trap,SS01-ENC11
+Toon World,Spell Card,N/A,N/A,N/A,N/A,N/A,Continuous Spell,COMM,Destiny Master,Activate this card by paying 1000 LP.,Spell/Trap,SS01-ENC12
+Yami,Spell Card,N/A,N/A,N/A,N/A,N/A,Field Spell,COMM,Destiny Master,Increases the ATK and DEF of all Fiend and Spellcaster-Type monsters by 200 points. Also decreases the ATK and DEF of all Fairy-Type monsters by 200 points.,Spell/Trap,SS01-ENC13
+Sword of Deep-Seated,Spell Card,N/A,N/A,N/A,N/A,N/A,Equip Spell,COMM,Destiny Master,Increase the ATK and DEF of a monster equipped with this card by 500 points. When this card is sent to the Graveyard(Comma) place it on top of your Deck.,Spell/Trap,SS01-ENC14
+Shard of Greed,Spell Card,N/A,N/A,N/A,N/A,N/A,Continuous Spell,UR,Destiny Master,Each time you draw a card(s) for your normal draw in your Draw Phase(Comma) place 1 Greed Counter on this card. You can send this card with 2 or more Greed Counters to the Graveyard(Comma) draw 2 cards.,Spell/Trap,SS01-ENV01
+Mimicat,Spell Card,N/A,N/A,N/A,N/A,N/A,Normal Spell,UR,Destiny Master,"If you control ""Toon World"" and a Toon monster: Target 1 card in your opponent's GY(Comma) if it is a monster(Comma) Special Summon it to your field(Comma) or if it is a Spell/Trap(Comma) Set it to your field. You can only activate 1 ""Mimicat"" per turn.",Spell/Trap,SS01-ENV03
+Lightforce Sword,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,Banish 1 random card from your opponent's hand(Comma) face-down. During your opponent's 4th Standby Phase after this card's activation(Comma) return that card to their hand.,Spell/Trap,SS01-ENA15
+Magician's Circle,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,When a Spellcaster-Type monster declares an attack: Each player Special Summons 1 Spellcaster-Type monster with 2000 or less ATK from the Deck in Attack Position.,Spell/Trap,SS01-ENA16
+Magic Jammer,Trap Card,N/A,N/A,N/A,N/A,N/A,Counter Trap,COMM,Destiny Master,When a Spell Card is activated: Discard 1 card(Comma) negate the activation(Comma) and if you do(Comma) destroy it.,Spell/Trap,SS01-ENA17
+Seven Tools of the Bandit,Trap Card,N/A,N/A,N/A,N/A,N/A,Counter Trap,COMM,Destiny Master,When a Trap Card is activated: Pay 1000 LP(Comma) negate the activation(Comma) and if you do(Comma) destroy it.,Spell/Trap,SS01-ENA18
+Blast Held by a Tribute,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,When an opponent's monster that was Tribute Summoned declares an attack: Destroy as many face-up Attack Position monsters they control as possible(Comma) and if you do(Comma) inflict 1000 damage to your opponent.,Spell/Trap,SS01-ENB15
+Rite of Spirit,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,"Target 1 ""Gravekeeper's"" monster in your GY(Comma) Special Summon that target. This card's activate and effect are unaffected by ""Necrovalley"".",Spell/Trap,SS01-ENB16
+The Eye of Truth,Trap Card,N/A,N/A,N/A,N/A,N/A,Continuous Trap,COMM,Destiny Master,Your opponent must keep their hand revealed. During each of your opponent's Standby Phases(Comma) if they have a Spell Card in their hand: They gain 1000 LP.,Spell/Trap,SS01-ENB17
+Toon Defense,Trap Card,N/A,N/A,N/A,N/A,N/A,Continuous Trap,COMM,Destiny Master,When an opponent's monster declares an attack targeting a face-up Level 4 or lower Toon Monster you control: You can make the attack a direct attack instead.,Spell/Trap,SS01-ENC15
+Jar of Greed,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,Draw 1 card.,Spell/Trap,SS01-ENC16
+Wild Tornado,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,COMM,Destiny Master,Target 1 face-up card in the Spell & Trap Zone(Comma) destroy that face-up card(Comma) then(Comma) its controller can Set 1 Spell or Trap from their hand. If this Set card is destroyed and sent to the GY: Target 1 face-up card on the field(Comma) destroy that target.,Spell/Trap,SS01-ENC17
+The Golden Apples,Trap Card,N/A,N/A,N/A,N/A,N/A,Normal Trap,UR,Destiny Master,"When you take battle damage while you control no monsters: Gain LP equal to the battle damage you took(Comma) and if you do(Comma) Special Summon 1 ""Malus Token"" (Fiend/DARK/Level 1/ATK ?/DEF ?). Its ATK/DEF are each equal to the amount of LP you gained by this effect.",Spell/Trap,SS01-ENV02
