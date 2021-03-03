@@ -56,5 +56,6 @@ def image_2_ascii(file_name):
             line=''
         print(f"{file_name}")
 
-def setup_art(card):
+def setup_art(card): 
+    retrive_img(name=card.name,url=card.img_url)
     image_2_ascii(file_name=card.name)

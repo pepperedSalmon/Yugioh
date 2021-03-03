@@ -33,7 +33,6 @@ mygame2.m_zone_1.append(mycards[23])
 mygame2.m_zone_2.append(mycards[24])
 mygame2.st_zone_2.append(mycards[25])
 
-
 mygame.deck.append(mycards[0])
 mygame.m_zone_1.append(mycards[1])
 mygame.m_zone_2.append(mycards[2])
@@ -51,14 +50,13 @@ ribbon.life('gain','10000','p2')
 ribbon.next_phase()
 ribbon.next_phase()
 
-
 tittle.draw()
 mygame2.draw(view="reverse")
 ribbon.draw()
 mygame.draw()
 
-get_online_data()
-cards=YugiohSet2("yugioh.json")
-for card in cards.cards:
-    print(card.name)
-    setup_art(card)
+#get_online_data()
+#cards=YugiohSet2("yugioh.json")
+#for card in cards.cards:
+#    print(card.name)
+#    setup_art(card)
