@@ -25,8 +25,8 @@ def image_2_ascii(file_name):
         height, width= gray.shape[:2]
         print(f"height= {height}")
         print(f"width = {width}")
-        max_height = 150
-        max_width = 150
+        max_height = 350
+        max_width = 350
         # only shrink if img is bigger than required
         if max_height < height or max_width < width:
             # get scaling factor
