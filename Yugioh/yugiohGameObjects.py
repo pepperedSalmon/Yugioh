@@ -278,6 +278,17 @@ class YugiohSet:
                                             card_icon=fields[7],
                                             s_frame=fields[11]))
 
+class Player:
+    def __init__(self,name,deck):
+        self.deck=deck
+        self.name=name
+
+class Game:
+    def __init__(self,Player1,Player2):
+        self.p1_field=YugiohField()
+        self.p2_fielf=YugiohField()
+        self.ribbon=Ribbon()
+
 
 
 

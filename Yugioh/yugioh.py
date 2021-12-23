@@ -5,6 +5,9 @@ from yugiohGameObjects import TittleScreen
 from access_api import get_online_data
 from access_api import YugiohSet2
 from art2ascii import *
+import os
+import sys
+os.system("mode con cols=100 lines=60")
 
 set_names=["arena_of_souls", 
           "destiny_masters",
@@ -51,6 +54,8 @@ ribbon.next_phase()
 ribbon.next_phase()
 
 tittle.draw()
+# Clear the screen by printing several newlines:
+print('\n' * 60)
 mygame2.draw(view="reverse")
 ribbon.draw()
 mygame.draw()
@@ -60,3 +65,34 @@ mygame.draw()
 #for card in cards.cards:
 #    print(card.name)
 #    setup_art(card)
+command_list= ['draw', 'd',
+              'set', 'st',
+              'summon','sm',
+              'play','p',
+              'flip','f',
+              'rotate','rt'
+              'send_to_grave','s2g'
+              'banish','b',
+              'Add_tokens_to','at2'
+              'take_damage','td'
+              'Attack','a'
+              'select','s'
+              'show hand','sh'
+              'next_phase','n'
+              'end_turn','et',
+              'undo','z'
+              ]
+
+
+
+try:
+    while True:
+        player1CMD=input("CMD: ").split(" ")
+        if player1CMD[0] in command_list:
+            print(player1CMD[0])
+        else:
+            print("This is not a valid command ")
+
+except KeyboardInterrupt:
+    print('Yugioh by Ivan Lopez')
+    sys.exit()  # When Ctrl-C is pressed, end the program.)

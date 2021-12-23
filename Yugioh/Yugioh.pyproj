@@ -28,6 +28,9 @@
     <Compile Include="art2ascii.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="comand_engine.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="yugiohBaseObjects.py" />
     <Compile Include="yugiohData.py" />
     <Compile Include="yugiohGameObjects.py" />
