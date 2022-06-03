@@ -63,7 +63,7 @@ class Ribbon:
         elif player=="p2":
             self.p2_life=self.word_format(int_life,5)
 
-    def draw(self):
+    def display(self):
        # print('================================================================================================')
         print(f"====================================== Player's {self.player_turn} Turn =====================================")
         print(f'   P1:{self.p1_life}                      {self.phase_text}                          P2:{self.p2_life}   ')
@@ -95,7 +95,7 @@ class YugiohField:
         self.banish=[]
         self.skills=[]
         self.hand=[]
-    def draw(self,view='normal'):
+    def display(self,view='normal'):
         zones=[self.fieldzone,
                 self.m_zone_3,
                 self.m_zone_2,
@@ -215,7 +215,7 @@ class TittleScreen:
         te='     Y:::::::::::Y      uu::::::::uu:::u                      GGG::::::GGG:::Gi::::::i                    OO:::::::::OO    h:::::h     h:::::h     !!:!!'
         tf='     YYYYYYYYYYYYY        uuuuuuuu  uuuu                         GGGGGG   GGGGiiiiiiii                      OOOOOOOOO      hhhhhhh     hhhhhhh      !!! '
         self.tittle=[t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,ta,tb,tc,td,te,tf]
-    def draw(self):
+    def display(self):
         for line in self.tittle:
             print(line)
         print()
@@ -284,13 +284,53 @@ class Player:
         self.name=name
 
 class Game:
-    def __init__(self,Player1,Player2):
+    def __init__(self,player1,player2):
         self.p1_field=YugiohField()
-        self.p2_fielf=YugiohField()
+        self.p2_field=YugiohField()
         self.ribbon=Ribbon()
-
-
-
-
-
+        self.p1_field.deck.append(player1.deck)
+        self.p2_field.deck.append(player2.deck)
+        self.command_list= ['draw', 'd',
+                           'set', 'st',
+                           'summon','sm',
+                           'play','p',
+                           'flip','f',
+                           'rotate','rt',
+                           'send_to_grave','s2g',
+                           'banish','b',
+                           'add_tokens_to','at2',
+                           'take_damage','td',
+                           'attack','a',
+                           'select','s',
+                           'show hand','sh',
+                           'next_phase','n',
+                           'end_turn','end',
+                           'undo','z']
+    def run(self):             
+        while self.ribbon.p1_life>0 and self.ribbon.p2_life>0:
+            self._p1_turn()
+            self._display()
+    def _display(self):
+        self.p1_field.display(view="reverse")
+        self.ribbon.display()
+        self.p2_field.display()
+    def _p1_turn(self):
+        p1Cmd,*p1Awrg=self._askForAction()
+        self._p1_action(p1Cmd,p1Awrg)
+    def _p1_action(self,cmd,cmdAwrgs):
+        if cmd=='draw' or cmd=='d':
+            if len(cmdAwrgs)==0:
+                self.p1_field.hand.append(self.p1_field.deck.pop())
+            elif cmdAwrg[0].isnumeric():
+                for i in range(int(cmd[1])):
+                    self.p1_field.hand.append(self.p1_field.deck.pop())
+    def _askForAction(self):
+        player1CMD=input("CMD: ").lower().split(" ")
+        while True:
+            if player1CMD[0] in self.command_list:
+                return(player1CMD)
+            else:
+                self._display()
+                print("This is not a valid command ")
+            
          

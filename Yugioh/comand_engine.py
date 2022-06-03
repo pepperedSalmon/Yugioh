@@ -1,19 +1,20 @@
 command_list= ['draw', 'd',
               'set', 'st',
-              'summon','sm'
+              'summon','sm',
               'play','p',
               'flip','f',
-              'rotate','rt'
+              'rotate','rt',
               'send_to_grave','s2g'
               'banish','b',
-              'Add_tokens_to','at2'
-              'take_damage','td'
-              'Attack','a'
-              'select','s'
-              'show hand','sh'
-              'next_phase','n'
+              'Add_tokens_to','at2',
+              'take_damage','td',
+              'Attack','a',
+              'select','s',
+              'show hand','sh',
+              'next_phase','n',
               'end_turn','et',
               'undo','z'
+              'help','h'
               ]
 
 

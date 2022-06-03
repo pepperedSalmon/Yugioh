@@ -10,7 +10,7 @@ import sys
 os.system("mode con cols=100 lines=60")
 
 set_names=["arena_of_souls", 
-          "destiny_masters",
+          "destiny_masters"
          ]
 cards=[]
 for set in set_names:
@@ -53,43 +53,47 @@ ribbon.life('gain','10000','p2')
 ribbon.next_phase()
 ribbon.next_phase()
 
-tittle.draw()
+tittle.display()
 # Clear the screen by printing several newlines:
 print('\n' * 60)
-mygame2.draw(view="reverse")
-ribbon.draw()
-mygame.draw()
+mygame2.display(view="reverse")
+ribbon.display()
+mygame.display()
 
 #get_online_data()
 #cards=YugiohSet2("yugioh.json")
 #for card in cards.cards:
 #    print(card.name)
 #    setup_art(card)
-command_list= ['draw', 'd',
-              'set', 'st',
-              'summon','sm',
-              'play','p',
-              'flip','f',
-              'rotate','rt'
-              'send_to_grave','s2g'
-              'banish','b',
-              'Add_tokens_to','at2'
-              'take_damage','td'
-              'Attack','a'
-              'select','s'
-              'show hand','sh'
-              'next_phase','n'
-              'end_turn','et',
-              'undo','z'
+commandList= [['draw', 'd', 1],
+              ['set', 'st', 2],
+              ['summon','sm',2],
+              ['play','p',2],
+              ['flip','f', 1],
+              ['rotate','rt',2],
+              ['send_to_grave','s2g',1],
+              ['banish','b',1],
+              ['add_tokens_to','at2',1],
+              ['take_damage','td',1],
+              ['attack','a',2],
+              ['select','s', 1],
+              ['show hand','sh',0],
+              ['next_phase','n',0],
+              ['end_turn','et',0],
+              ['undo','z',0],
+              ['help','h',0]
               ]
-
-
+validCmds=[]
+for command in commandList:
+    longCmd,shortCmd,_=command
+    validCmds.append(longCmd)
+    validCmds.append(shortCmd)
 
 try:
     while True:
-        player1CMD=input("CMD: ").split(" ")
-        if player1CMD[0] in command_list:
-            print(player1CMD[0])
+        player1CMD,*p1Awrgs=input("CMD: ").split(" ")
+        if player1CMD in validCmds:
+            print(player1CMD)
         else:
             print("This is not a valid command ")
 
