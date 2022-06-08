@@ -306,6 +306,16 @@ class Game:
                            'next_phase','n',
                            'end_turn','end',
                            'undo','z']
+        self.zones_names=['fz', 'field_zone', 
+                         'm3', 'monster_zone_3' , 
+                         'm2', 'monster_zone_2', 
+                         'm1', 'monster_zone_1', 
+                         'gy', 'grave_yard',
+                         'd','deck', 
+                         'st1', 'spell_zone_1','trap_zone_1',
+                         'st2', 'spell_zone_2','trap_zone_2',
+                         'st3', 'spell_zone_3','trap_zone_3',
+                         'fd', 'fusion_Deck']
     def run(self):             
         while self.ribbon.p1_life>0 and self.ribbon.p2_life>0:
             self._p1_turn()
@@ -325,10 +335,47 @@ class Game:
                 for i in range(int(cmd[1])):
                     self.p1_field.hand.append(self.p1_field.deck.pop())
     def _askForAction(self):
-        player1CMD=input("CMD: ").lower().split(" ")
         while True:
+            player1CMD=input("CMD: ").lower().split(" ")
             if player1CMD[0] in self.command_list:
-                return(player1CMD)
+                if player1CMD[0] in ['draw', 'd']:
+                    if len(player1CMD)==1:
+                        return(player1CMD)
+                    if len(player1CMD)==2 and player1CMD[1].isnumeric:
+                        return(player1CMD)
+
+                if player1CMD[0] in ['set', 'st']:
+                    if len(player1CMD)==3 and player1CMD[1].isnumeric and player1CMD[2] in self.zones_names:
+                        return(player1CMD)
+                if player1CMD[0] in['summon','sm']:
+                    pass
+                if player1CMD[0] in ['play','p']:
+                    pass
+                if player1CMD[0] in ['flip','f']:
+                    pass
+                if player1CMD[0] in ['rotate','rt']:
+                    pass
+                if player1CMD[0] in ['send_to_grave','s2g']:
+                    pass
+                if player1CMD[0] in ['banish','b']:
+                    pass
+                if player1CMD[0] in ['add_tokens_to','at2']:
+                    pass
+                if player1CMD[0] in ['take_damage','td']:
+                    pass
+                if player1CMD[0] in ['attack','a']:
+                    pass
+                if player1CMD[0] in ['select','s']:
+                    pass
+                if player1CMD[0] in ['show hand','sh']:
+                    pass
+                if player1CMD[0] in ['next_phase','n']:
+                    pass
+                if player1CMD[0] in ['end_turn','end']:
+                    pass
+                if player1CMD[0] in ['undo','z']:
+                    pass
+                
             else:
                 self._display()
                 print("This is not a valid command ")
