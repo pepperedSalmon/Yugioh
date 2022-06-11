@@ -177,7 +177,7 @@ class SpellTrapCard(YugiohCard):
                     mz03 = " |   __________   |"
                 mz = [mz00,mz01,mz02,mz03,mz04,mz05,mz06,mz07,mz08,mz09,mz10]
                 return mz
-            elif card.frame.lower() == "spell card":            
+            elif self.frame.lower() == "spell card":            
                 mz00 = "  ________________ "
                 mz01 = f" |{fname[0]}|"
                 mz02 = f" |{fname[1]}|"

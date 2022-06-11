@@ -288,8 +288,8 @@ class Game:
         self.p1_field=YugiohField()
         self.p2_field=YugiohField()
         self.ribbon=Ribbon()
-        self.p1_field.deck.append(player1.deck)
-        self.p2_field.deck.append(player2.deck)
+        self.p1_field.deck=player1.deck
+        self.p2_field.deck=player2.deck
         self.command_list= ['draw', 'd',
                            'set', 'st',
                            'summon','sm',
@@ -316,37 +316,88 @@ class Game:
                          'st2', 'spell_zone_2','trap_zone_2',
                          'st3', 'spell_zone_3','trap_zone_3',
                          'fd', 'fusion_Deck']
+        self.errorMsg=''
     def run(self):             
-        while self.ribbon.p1_life>0 and self.ribbon.p2_life>0:
-            self._p1_turn()
+        while int(self.ribbon.p1_life)>0 and int(self.ribbon.p2_life)>0:
             self._display()
+            self._p1_turn()
+ 
+        self._display()
+
     def _display(self):
-        self.p1_field.display(view="reverse")
+        self.p2_field.display(view="reverse")
         self.ribbon.display()
-        self.p2_field.display()
+        self.p1_field.display()
+        print(self.errorMsg)
+        print()
+        print()
+
     def _p1_turn(self):
         p1Cmd,*p1Awrg=self._askForAction()
         self._p1_action(p1Cmd,p1Awrg)
     def _p1_action(self,cmd,cmdAwrgs):
+        if cmd == 'error':
+            self.errorMsg=cmdAwrgs[0]
+
         if cmd=='draw' or cmd=='d':
-            if len(cmdAwrgs)==0:
+            self.errorMsg=''
+            if cmdAwrgs==[]:
                 self.p1_field.hand.append(self.p1_field.deck.pop())
-            elif cmdAwrg[0].isnumeric():
-                for i in range(int(cmd[1])):
+            elif cmdAwrgs[0].isnumeric():
+                for i in range(int(cmdAwrgs[0])):
                     self.p1_field.hand.append(self.p1_field.deck.pop())
+
     def _askForAction(self):
         while True:
-            player1CMD=input("CMD: ").lower().split(" ")
+            player1CMD=input("CMD: ").lower().split(" ") # returns a list of string, with the first beign the cmd followed by awrguments
             if player1CMD[0] in self.command_list:
                 if player1CMD[0] in ['draw', 'd']:
+                    if len(player1CMD)>2:
+                        player1CMD[0]="error"
+                        player1CMD[1]="too many awrgument"
+                        return(player1CMD)
                     if len(player1CMD)==1:
                         return(player1CMD)
-                    if len(player1CMD)==2 and player1CMD[1].isnumeric:
+                    if len(player1CMD)==2:
+                        if not (player1CMD[1].isnumeric):
+                            player1CMD[0]="error"
+                            player1CMD[1]="awrgument is not numeric"
+                            return(player1CMD)
+                        if (player1CMD[1].isnumeric):
+                            try:
+                                if int(player1CMD[1])>len(self.p1_field.deck):
+                                    player1CMD[0]="error"
+                                    player1CMD[1]="awrgument exceeds deck size"
+                                    return(player1CMD)
+                            except ValueError:
+                                    player1CMD[0]="error"
+                                    player1CMD[1]="awrgument is not numeric"
+                                    return(player1CMD)
                         return(player1CMD)
 
                 if player1CMD[0] in ['set', 'st']:
-                    if len(player1CMD)==3 and player1CMD[1].isnumeric and player1CMD[2] in self.zones_names:
+                    if not len(player1CMD)==3:
+                        player1CMD[:]=["error","awrgument must equal two"]
                         return(player1CMD)
+                    if not player1CMD[1].isnumeric:
+                        player1CMD[0]="error"
+                        player1CMD[1]="awrgument one is not numeric"
+                        return(player1CMD)
+                    if not (player1CMD[2] in self.zones_names):
+                        player1CMD[0]="error"
+                        player1CMD[1]="awrgument two is not a field zone"
+                        return(player1CMD)
+                    try:
+                        if int(player1CMD[1]) > len(self.p1_field.hand):
+                            player1CMD[0]="error"
+                            player1CMD[1]="awrgument one exceeds hand size"
+                            return(player1CMD)
+                    except ValueError:
+                        player1CMD[:]=["error","awrgument is not numeric"]
+                        return(player1CMD)
+
+                    return(player1CMD)
+
                 if player1CMD[0] in['summon','sm']:
                     pass
                 if player1CMD[0] in ['play','p']:
@@ -375,9 +426,9 @@ class Game:
                     pass
                 if player1CMD[0] in ['undo','z']:
                     pass
-                
             else:
-                self._display()
-                print("This is not a valid command ")
+                player1CMD=["error","invalid command"]
+                return player1CMD
+
             
          
