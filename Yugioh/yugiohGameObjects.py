@@ -106,27 +106,26 @@ class YugiohField:
                 self.st_zone_2,
                 self.st_zone_1,
                 self.deck]
+
         im=[]
         for zone in zones:
             if len(zone)==0:
                 im.append(empty_zone())
             else:
                 im.append(zone[-1].str_img())
-
+# create display strings for empty dotted hand place holders for  4 minus number of cards in hand.
         h_im=[]
         for i in range(max(0,4- len(self.hand))):
             h_im.append(empty_zone())
-
-        for card in self.hand:
+# create display strings for cards in hand.
+        for number, card in enumerate(self.hand):
             card.position="face up"
-            h_im.append(card.str_img())
+            h_im.insert(number,card.str_img())
 
         hand=['','','','','','','','','','','']
         for x in range(len(h_im)):
             for y in range(11):
                 hand[y]+=h_im[x][y]
-
-
 
         if view== 'normal':
             print(im[0][0]+im[1][0]+im[2][0]+im[3][0]+im[4][0])
@@ -163,6 +162,8 @@ class YugiohField:
             print(hand[8])
             print(hand[9])
             print(hand[10])
+            for number,cards in enumerate(self.hand):
+                print("| -------  ------ |",end='')
             
 
 
@@ -317,6 +318,7 @@ class Game:
                          'st3', 'spell_zone_3','trap_zone_3',
                          'fd', 'fusion_Deck']
         self.errorMsg=''
+        self.message=''
     def run(self):             
         while int(self.ribbon.p1_life)>0 and int(self.ribbon.p2_life)>0:
             self._display()
@@ -329,8 +331,8 @@ class Game:
         self.ribbon.display()
         self.p1_field.display()
         print(self.errorMsg)
-        print()
-        print()
+        print(self.message)
+        
 
     def _p1_turn(self):
         p1Cmd,*p1Awrg=self._askForAction()

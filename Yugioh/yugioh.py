@@ -26,6 +26,7 @@ for i in range(30):
 player1=Player("Bob",mycards)
 player2=Player("Jack",mycards)
 game1=Game(player1,player2)
+
 game1.run()
 
 #mycards[0].position="face down"
